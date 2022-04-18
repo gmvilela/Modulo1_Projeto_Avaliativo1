@@ -1,0 +1,113 @@
+#cabecalho {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#corpo {
+    background-image: linear-gradient(to right, rgb(219, 92, 151), rgb(219, 192, 205));
+}
+#titulo {
+    text-align: center;
+    color: rgba(5, 8, 37, 0.856);
+}
+.itemAdicionavel {
+    margin-left: 30px;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 6cm;
+    height: 0.6cm;
+    font-size: large;
+}
+.addItemAdicionavel {
+    margin-left: 110px;
+    width: 2.5cm;
+    height: 0.7cm;
+    border: solid black 2px;
+    border-radius: 4px;
+    font-size: 0.4cm;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+}
+.fixed{
+    width: 200px;
+}
+.flex-item{
+    flex-grow: 1;
+}
+.classeCheckboxItem {
+    width: 15px;
+    height: 15px;
+    border: solid black 50px;
+    border-radius: 10px;
+    clip: rect(0 0 0 0);
+}
+.TextoNaLista {
+    font-size:larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    margin-left: 5px;
+}
+.listaDeCadaItem {
+    padding: 0.2cm;
+    display:flex;
+    align-items: center;
+}
+.BotaoDeExcluir {
+    background-color: rgb(83, 192, 110);
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 9px;
+    font-size: 0.2cm;
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    padding: 0px;
+    margin-top: 0.12cm;
+}
+#estiloMenu {
+    background-color: rgba(131, 79, 109, 0.288);
+    border: solid rgba(131, 79, 109, 0.288) 1px;
+    width: 20cm;
+    margin-left: 30px;
+}
+#lista {
+    margin-left: -1.8cm;
+}
+.BotaoAddValor{
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 6cm;
+    height: 0.6cm;
+    font-size: large;
+}
+.botaoValorProduto{
+    background-color: rgba(15, 13, 4, 0.24);
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 2px;
+    font-size: 0.33cm;
+    font-weight: bolder;
+    width: 2.5cm;
+    height: 1cm;
+    margin-left: 20px;
+}
+.PrecoDoLadoDoItem {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#painelSomatorio {
+    color:rgb(6, 29, 12);
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+#btnLimparCache{
+    background-color: rgb(141, 183, 219);
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 3cm;
+    height: 1cm;
+    font-size: 0.4cm;
+    margin-right: -50cm;
+}
+
